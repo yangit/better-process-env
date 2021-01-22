@@ -1,5 +1,5 @@
-import fp from 'lodash/fp';
-import fs from 'fs';
+import * as fp from 'lodash/fp';
+import * as fs from 'fs';
 
 const textToHash = (fileString: string): Record<string, ConfigVariable> =>
     fp.flow([
@@ -11,7 +11,7 @@ const textToHash = (fileString: string): Record<string, ConfigVariable> =>
 
             return { key, value };
         }),
-        fp.reduce((sum, { key, value }) => {
+        fp.reduce((sum: Record<string,any>, { key, value }: {key:string,value:any}) => {
             return { ...sum, [key]: value };
         }, {}),
     ])(fileString.split('\n'));

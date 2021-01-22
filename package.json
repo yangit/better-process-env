@@ -1,0 +1,37 @@
+{
+  "name": "better-process-env",
+  "version": "1.0.0",
+  "description": "Read process env variables, parse, validate, early exit if variables are not defined.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangit/better-process-env.git"
+  },
+  "keywords": [
+    "process.env",
+    "env",
+    "process",
+    "dotenv",
+    "envinorment",
+    "config"
+  ],
+  "author": "Yan Tyukhtyaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangit/better-process-env/issues"
+  },
+  "homepage": "https://github.com/yangit/better-process-env#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.22"
+  }
+}
