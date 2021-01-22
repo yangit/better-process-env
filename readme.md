@@ -17,5 +17,5 @@ Configuration utility for server apps
 
 ```javascript
 import config from "better-process-env";
-config.get("");
+console.log(config.get("PORT"));
 ```
