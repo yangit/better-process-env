@@ -10,8 +10,8 @@ Configuration utility for server apps
 * Parse strings, JSON, numbers
 * Check against example that all variables are defined, and no extra variable are defined (configurable)
 * Immediately throw if user tries to access undefined variable `config.get("INVALID_VARIABLE")`
-* expose `.get()` and `.getObject()` methods
-* only allow to access process.env variable if it is also defined in `.env.example` file
+* Expose `.get()` and `.getObject()` methods
+* Only allow to access process.env variable if it is also defined in `.env.example` file
 
 ## Example
 
