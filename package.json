@@ -1,6 +1,6 @@
 {
   "name": "better-process-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read process env variables, parse, validate, early exit if variables are not defined.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
